@@ -1,0 +1,31 @@
+"""Additional non-teaching and faculty employee seed rows."""
+
+from __future__ import annotations
+
+MORE_EMPLOYEES: list[dict] = [
+    {"email": "lab.cse@sasurie.edu.in", "title": "Mr.", "first": "M.", "last": "Selvakumar", "cat": "non_teaching", "type": "permanent", "desig": "LAB-TECH", "dept": "SAE-CBE-CSE", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "lab.ece@sasurie.edu.in", "title": "Ms.", "first": "K.", "last": "Revathi", "cat": "non_teaching", "type": "permanent", "desig": "LAB-TECH", "dept": "SAE-CBE-ECE", "rank": None, "phd": None, "spec": "", "gender": "Female"},
+    {"email": "lab.eee@sasurie.edu.in", "title": "Mr.", "first": "P.", "last": "Ganesan", "cat": "non_teaching", "type": "permanent", "desig": "LAB-TECH", "dept": "SAE-CBE-EEE", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "lab.mech@sasurie.edu.in", "title": "Mr.", "first": "S.", "last": "Thangavel", "cat": "non_teaching", "type": "permanent", "desig": "LAB-TECH", "dept": "SAE-CBE-MECH", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "lab.civil@sasurie.edu.in", "title": "Mr.", "first": "R.", "last": "Manikandan", "cat": "non_teaching", "type": "contract", "desig": "LAB-TECH", "dept": "SAE-CBE-CIVIL", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "admin.office@sasurie.edu.in", "title": "Mr.", "first": "A.", "last": "Rajendran", "cat": "non_teaching", "type": "permanent", "desig": "ADMIN-OFF", "dept": "SAE-CBE-HR", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "accounts.sae@sasurie.edu.in", "title": "Ms.", "first": "P.", "last": "Lakshmi", "cat": "non_teaching", "type": "permanent", "desig": "ACCT", "dept": "SAE-CBE-FIN", "rank": None, "phd": None, "spec": "", "gender": "Female"},
+    {"email": "library.sae@sasurie.edu.in", "title": "Ms.", "first": "V.", "last": "Shanthi", "cat": "non_teaching", "type": "permanent", "desig": "LIB-ASST", "dept": "SAE-CBE-LIB", "rank": None, "phd": None, "spec": "", "gender": "Female"},
+    {"email": "oa.cse@sasurie.edu.in", "title": "Ms.", "first": "B.", "last": "Kalaiselvi", "cat": "non_teaching", "type": "permanent", "desig": "OA", "dept": "SAE-CBE-CSE", "rank": None, "phd": None, "spec": "", "gender": "Female"},
+    {"email": "oa.ece@sasurie.edu.in", "title": "Mr.", "first": "C.", "last": "Palanisamy", "cat": "non_teaching", "type": "permanent", "desig": "OA", "dept": "SAE-CBE-ECE", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "purchase.clerk@sasurie.edu.in", "title": "Mr.", "first": "D.", "last": "Velmurugan", "cat": "non_teaching", "type": "permanent", "desig": "OA", "dept": "SAE-CBE-PUR", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "stores.clerk@sasurie.edu.in", "title": "Ms.", "first": "E.", "last": "Jayanthi", "cat": "non_teaching", "type": "permanent", "desig": "OA", "dept": "SAE-CBE-STORE", "rank": None, "phd": None, "spec": "", "gender": "Female"},
+    {"email": "hostel.warden.b@sasurie.edu.in", "title": "Mr.", "first": "F.", "last": "Sundararajan", "cat": "non_teaching", "type": "permanent", "desig": "ADMIN-OFF", "dept": "SAE-CBE-HOSTEL-B", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "hostel.warden.g@sasurie.edu.in", "title": "Ms.", "first": "G.", "last": "Parimala", "cat": "non_teaching", "type": "permanent", "desig": "ADMIN-OFF", "dept": "SAE-CBE-HOSTEL-G", "rank": None, "phd": None, "spec": "", "gender": "Female"},
+    {"email": "tpo.sae@sasurie.edu.in", "title": "Mr.", "first": "H.", "last": "Vignesh", "cat": "non_teaching", "type": "permanent", "desig": "ADMIN-OFF", "dept": "SAE-CBE-PLACE", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "i.saranya@sasurie.edu.in", "title": "Ms.", "first": "I.", "last": "Saranya", "cat": "teaching", "type": "temporary", "desig": "LECT", "dept": "SAE-CBE-IT", "rank": "lecturer", "phd": "not_applicable", "spec": "Programming", "gender": "Female"},
+    {"email": "j.harish@sasurie.edu.in", "title": "Mr.", "first": "J.", "last": "Harish", "cat": "teaching", "type": "intern", "desig": "LECT", "dept": "SAE-CBE-CSE", "rank": "guest_faculty", "phd": "not_applicable", "spec": "Python Lab", "gender": "Male"},
+    {"email": "l.deepa@sasurie.edu.in", "title": "Ms.", "first": "L.", "last": "Deepa", "cat": "teaching", "type": "permanent", "desig": "ASST-PROF", "dept": "SAE-CBE-ECE", "rank": "assistant_professor", "phd": "phd_pursuing", "spec": "Antenna Design", "gender": "Female"},
+    {"email": "o.ramesh@sasurie.edu.in", "title": "Mr.", "first": "O.", "last": "Ramesh", "cat": "teaching", "type": "permanent", "desig": "ASST-PROF", "dept": "SAE-CBE-MECH", "rank": "assistant_professor", "phd": "not_applicable", "spec": "Automobile Engineering", "gender": "Male"},
+    {"email": "q.nithya@sasurie.edu.in", "title": "Ms.", "first": "Q.", "last": "Nithya", "cat": "teaching", "type": "probation", "desig": "ASST-PROF", "dept": "SAE-CBE-CIVIL", "rank": "assistant_professor", "phd": "phd_pursuing", "spec": "Environmental Engineering", "gender": "Female"},
+    {"email": "u.prakash@sasurie.edu.in", "title": "Mr.", "first": "U.", "last": "Prakash", "cat": "non_teaching", "type": "outsourced", "desig": "OA", "dept": "SAE-CBE-STORE", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+    {"email": "w.banu@sasurie.edu.in", "title": "Ms.", "first": "W.", "last": "Banu", "cat": "non_teaching", "type": "temporary", "desig": "OA", "dept": "SAE-CBE-FIN", "rank": None, "phd": None, "spec": "", "gender": "Female"},
+    {"email": "y.kannan@sasurie.edu.in", "title": "Mr.", "first": "Y.", "last": "Kannan", "cat": "teaching", "type": "consultant", "desig": "PROF", "dept": "SAE-CBE-CSE", "rank": "professor", "phd": "phd_awarded", "spec": "Industry IoT", "gender": "Male"},
+    {"email": "z.hemalatha@sasurie.edu.in", "title": "Ms.", "first": "Z.", "last": "Hemalatha", "cat": "teaching", "type": "permanent", "desig": "ASST-PROF", "dept": "SAE-CBE-IT", "rank": "assistant_professor", "phd": "phd_awarded", "spec": "Database Systems", "gender": "Female"},
+    {"email": "aa.gopal@sasurie.edu.in", "title": "Mr.", "first": "AA.", "last": "Gopal", "cat": "non_teaching", "type": "permanent", "desig": "LAB-TECH", "dept": "SAE-CBE-IT", "rank": None, "phd": None, "spec": "", "gender": "Male"},
+]

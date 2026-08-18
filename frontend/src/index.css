@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  /* Sasurie institutional crimson */
+  --color-crimson-50: #fdf2f4;
+  --color-crimson-100: #fbe2e6;
+  --color-crimson-200: #f5c1cb;
+  --color-crimson-300: #ec95a7;
+  --color-crimson-400: #dd5f7c;
+  --color-crimson-500: #c53859;
+  --color-crimson-600: #9b1b30;
+  --color-crimson-700: #7d1628;
+  --color-crimson-800: #661223;
+  --color-crimson-900: #571221;
+  --color-crimson-950: #30070f;
+
+  /* Sasurie institutional gold */
+  --color-gold-50: #fdf9ec;
+  --color-gold-100: #faf0cb;
+  --color-gold-200: #f4e097;
+  --color-gold-300: #edca5c;
+  --color-gold-400: #e5b431;
+  --color-gold-500: #c9a227;
+  --color-gold-600: #a5811d;
+  --color-gold-700: #7e611a;
+  --color-gold-800: #674f1c;
+  --color-gold-900: #59431d;
+
+  --color-ink-50: #f6f7f9;
+  --color-ink-100: #eceef2;
+  --color-ink-200: #d7dbe3;
+  --color-ink-300: #b3bac8;
+  --color-ink-400: #8892a6;
+  --color-ink-500: #67718a;
+  --color-ink-600: #515971;
+  --color-ink-700: #40465b;
+  --color-ink-800: #2b3040;
+  --color-ink-900: #1a1d29;
+  --color-ink-950: #0f111a;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-ink-50);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--color-crimson-200);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-ink-300);
+  border-radius: 9999px;
+}
